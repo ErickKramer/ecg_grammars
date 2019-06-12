@@ -2,60 +2,234 @@ north :: DirectionalType :: self.m.tag <-- @north
 south :: DirectionalType :: self.m.tag <-- @south
 east :: DirectionalType :: self.m.tag <-- @east
 west :: DirectionalType :: self.m.tag <-- @west
-pencil :: ArtifactNoun :: self.m.ontological-category <-- @pencil
+
+north :: SideAdj-Type :: self.m.value <-- @northSide
+south :: SideAdj-Type :: self.m.value <-- @southSide
+east :: SideAdj-Type :: self.m.value <-- @eastSide
+west :: SideAdj-Type :: self.m.value <-- @westSide
+
 robot1 :: ProperNPInstance :: self.m.ontological-category <-- @robot :: self.m.referent <-- @robot1 :: self.m.gender <-- @female
 robot2 :: ProperNPInstance :: self.m.ontological-category <-- @robot :: self.m.referent <-- @robot2 :: self.m.gender <-- @male
 darwin :: ProperNPInstance :: self.m.ontological-category <-- @robot :: self.m.referent <-- @darwin :: self.m.gender <-- @male
-robot :: SentientNoun :: self.m.ontological-category <-- @robot
 box1 :: ProperNPInstance :: self.m.referent <-- @box1 :: self.m.ontological-category <-- @box
 box2 :: ProperNPInstance :: self.m.referent <-- @box2 :: self.m.ontological-category <-- @box
 box3 :: ProperNPInstance :: self.m.referent <-- @box3 :: self.m.ontological-category <-- @box
 box4 :: ProperNPInstance :: self.m.referent <-- @box4 :: self.m.ontological-category <-- @box
 box5 :: ProperNPInstance :: self.m.referent <-- @box5 :: self.m.ontological-category <-- @box
 box6 :: ProperNPInstance :: self.m.referent <-- @box6 :: self.m.ontological-category <-- @box
+desk1 :: ProperNPInstance :: self.m.referent <-- @desk1 :: self.m.ontological-category <-- @desk
+team :: ProperNPInstance :: self.m.ontological-category <-- @physicalEntity :: self.m.number <-- @plural :: self.m.referent <-- @team-instance
+pr2 :: ProperNPInstance :: self.m.referent <-- @pr2 :: self.m.ontological-category <-- @robot :: self.m.gender <-- @male
+tracy :: ProperNPInstance :: self.m.referent <-- @tracy :: self.m.gender <-- @female :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+jordan :: ProperNPInstance :: self.m.referent <-- @jordan :: self.m.gender <-- @male :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+jamie :: ProperNPInstance :: self.m.referent <-- @jamie :: self.m.gender <-- @male :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+me :: ProperNPInstance :: self.m.referent <-- @me :: self.m.gender <-- @male :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+peyton :: ProperNPInstance :: self.m.referent <-- @peyton :: self.m.gender <-- @female :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+someone :: ProperNPInstance :: self.m.referent <-- @someone :: self.m.gender <-- @male :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+hayden :: ProperNPInstance :: self.m.referent <-- @hayden :: self.m.gender <-- @female :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+morgan :: ProperNPInstance :: self.m.referent <-- @morgan :: self.m.gender <-- @male :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+michael :: ProperNPInstance :: self.m.referent <-- @michael :: self.m.gender <-- @male :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+alex :: ProperNPInstance :: self.m.referent <-- @alex :: self.m.gender <-- @male :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+argentina :: ProperNPInstance :: self.m.referent <-- @argentina :: self.m.gender <-- @female :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+erick :: ProperNPInstance :: self.m.referent <-- @erick :: self.m.gender <-- @male :: self.m.ontological-category <-- @person :: self.m.number <-- @singular
+
+one :: NumberType :: self.m.value <-- "1"
+two :: NumberType :: self.m.value <-- "2"
+
 green :: ColorType :: self.m.value <-- @green
 black :: ColorType :: self.m.value <-- @black
 purple :: ColorType :: self.m.value <-- @purple
-return :: ReturnType :: self.m.actionary <-- @move
-one :: NumberType :: self.m.value <-- "1"
-two :: NumberType :: self.m.value <-- "2"
 orange :: ColorType :: self.m.value <-- @orange
 magenta :: ColorType :: self.m.value <-- @magenta
-dash :: SelfMotionType :: self.m.actionary <-- @dash :: self.m.speed <-- ".8"
-north :: SideAdj-Type :: self.m.value <-- @northSide
-south :: SideAdj-Type :: self.m.value <-- @southSide
-east :: SideAdj-Type :: self.m.value <-- @eastSide
-west :: SideAdj-Type :: self.m.value <-- @westSide
-dart :: SelfMotionType :: self.m.actionary <-- @dart :: self.m.speed <-- ".7"
-scamper :: SelfMotionType :: self.m.actionary <-- @scamper
-gallop :: SelfMotionType :: self.m.actionary <-- @gallop :: self.m.speed <-- ".7"
 crimson :: ColorType :: self.m.value <-- @crimson
-desk :: ArtifactNoun :: self.m.ontological-category <-- @desk
-desk1 :: ProperNPInstance :: self.m.referent <-- @desk1 :: self.m.ontological-category <-- @desk
-white :: ColorType :: self.m.value <-- @white
-shelf :: ArtifactNoun :: self.m.ontological-category <-- @shelf
 pink :: ColorType :: self.m.value <-- @pink
+white :: ColorType :: self.m.value <-- @white
+
 large :: ScalarAdjectiveType :: self.m.value <-- ".7"
-amble :: SelfMotionType :: self.m.speed <-- ".2" :: self.m.actionary <-- @amble
-team :: ProperNPInstance :: self.m.ontological-category <-- @physicalEntity :: self.m.number <-- @plural :: self.m.referent <-- @team-instance
-jointly :: JointProcessAdverb :: self.m.value <-- @joint
-together :: JointProcessAdverb :: self.m.value <-- @joint
-beer :: ArtifactNoun :: self.m.ontological-category <-- @beer 
+
 position :: PropertyNoun :: self.m.ontological-category <-- @position
 location :: PropertyNoun :: self.m.ontological-category <-- @position
 orientation :: PropertyNoun :: self.m.ontological-category <-- @orientation
-turn :: SelfMotionType :: self.m.speed <-- ".2" :: self.m.actionary <-- @turn
-coffee :: SubstanceType :: self.m.ontological-category <-- @coffee
-mug :: ContainerNoun :: self.m.ontological-category <-- @mug
-dining :: PropertyAdjectiveType :: self.m.property <-- @function :: self.m.value <-- @dining 
-pr2 :: ProperNPInstance :: self.m.referent <-- @pr2 :: self.m.ontological-category <-- @robot :: self.m.gender <-- @male
-fridge :: ArtifactNoun :: self.m.ontological-category <-- @refrigerator
+
+pencil :: ArtifactNoun :: self.m.ontological-category <-- @pencil
+bathub :: ArtifactNoun :: self.m.ontological-category <-- @bathub
+desk :: ArtifactNoun :: self.m.ontological-category <-- @desk
+shelf :: ArtifactNoun :: self.m.ontological-category <-- @shelf
+beer :: ArtifactNoun :: self.m.ontological-category <-- @beer
+fridge :: ArtifactNoun :: self.m.ontological-category <-- @fridge
 refrigerator :: ArtifactNoun :: self.m.ontological-category <-- @refrigerator
-can :: ContainerNoun :: self.m.ontological-category <-- @cancontainer
 soda :: ArtifactNoun :: self.m.ontological-category <-- @soda
-fall :: SelfMotionType :: self.m.actionary <-- @fall
-floor :: ArtifactNoun :: self.m.ontological-category <-- @floor
-new :: PropertyAdjectiveType :: self.m.value <-- @new
 marker :: ArtifactNoun :: self.m.ontological-category <-- @marker
-gallon :: UnitType :: self.m.ontological-category <-- @gallon :: self.m.extras.quantity.property <-- @fuel
+kleenex :: ArtifactNoun :: self.m.ontological-category <-- @kleenex
+cookie :: ArtifactNoun :: self.m.ontological-category <-- @cookie
+book :: ArtifactNoun :: self.m.ontological-category <-- @book
+pen :: ArtifactNoun :: self.m.ontological-category <-- @pen
+notebook :: ArtifactNoun :: self.m.ontological-category <-- @notebook
+tablet :: ArtifactNoun :: self.m.ontological-category <-- @tablet
+charger :: ArtifactNoun :: self.m.ontological-category <-- @charger
+peanut :: ArtifactNoun :: self.m.ontological-category <-- @peanut
+biscuit :: ArtifactNoun :: self.m.ontological-category <-- @biscuit
+candy :: ArtifactNoun :: self.m.ontological-category <-- @candy
+cake :: ArtifactNoun :: self.m.ontological-category <-- @cake
+pie :: ArtifactNoun :: self.m.ontological-category <-- @pie
+coke :: ArtifactNoun :: self.m.ontological-category <-- @coke
+sprite :: ArtifactNoun :: self.m.ontological-category <-- @sprite
+sake :: ArtifactNoun :: self.m.ontological-category <-- @sake
+toothpaste :: ArtifactNoun :: self.m.ontological-category <-- @toothpaste
+cream :: ArtifactNoun :: self.m.ontological-category <-- @cream
+lotion :: ArtifactNoun :: self.m.ontological-category <-- @lotion
+dryer :: ArtifactNoun :: self.m.ontological-category <-- @dryer
+comb :: ArtifactNoun :: self.m.ontological-category <-- @comb
+towel :: ArtifactNoun :: self.m.ontological-category <-- @towel
+shampoo :: ArtifactNoun :: self.m.ontological-category <-- @shampoo
+soap :: ArtifactNoun :: self.m.ontological-category <-- @soap
+cloth :: ArtifactNoun :: self.m.ontological-category <-- @cloth
+sponge :: ArtifactNoun :: self.m.ontological-category <-- @sponge
+toothbrush :: ArtifactNoun :: self.m.ontological-category <-- @toothbrush
+container :: ArtifactNoun :: self.m.ontological-category <-- @container
+fork :: ArtifactNoun :: self.m.ontological-category <-- @fork
+knife :: ArtifactNoun :: self.m.ontological-category <-- @knife
+bowl :: ArtifactNoun :: self.m.ontological-category <-- @bowl
+tray :: ArtifactNoun :: self.m.ontological-category <-- @tray
+plate :: ArtifactNoun :: self.m.ontological-category <-- @plate
+newspaper :: ArtifactNoun :: self.m.ontological-category <-- @newspaper
+magazine :: ArtifactNoun :: self.m.ontological-category <-- @magazine
+almond :: ArtifactNoun :: self.m.ontological-category <-- @almond
+onion :: ArtifactNoun :: self.m.ontological-category <-- @onion
+apple :: ArtifactNoun :: self.m.ontological-category <-- @apple
+cookies :: ArtifactNoun :: self.m.ontological-category <-- @cookies
+chips :: ArtifactNoun :: self.m.ontological-category <-- @chips
+ham :: ArtifactNoun :: self.m.ontological-category <-- @ham
+lemon :: ArtifactNoun :: self.m.ontological-category <-- @lemon
+peach :: ArtifactNoun :: self.m.ontological-category <-- @peach
+strawberry :: ArtifactNoun :: self.m.ontological-category <-- @strawberry
+blueberry :: ArtifactNoun :: self.m.ontological-category <-- @blueberry
+banana :: ArtifactNoun :: self.m.ontological-category <-- @banana
+watermelon :: ArtifactNoun :: self.m.ontological-category <-- @watermelon
+pepper :: ArtifactNoun :: self.m.ontological-category <-- @pepper
+pear :: ArtifactNoun :: self.m.ontological-category <-- @pear
+pizza :: ArtifactNoun :: self.m.ontological-category <-- @pizza
+noodles :: ArtifactNoun :: self.m.ontological-category <-- @noodles
+vodka :: ArtifactNoun :: self.m.ontological-category <-- @vodka
+cider :: ArtifactNoun :: self.m.ontological-category <-- @cider
+lemonade :: ArtifactNoun :: self.m.ontological-category <-- @lemonade
+tea :: ArtifactNoun :: self.m.ontological-category <-- @tea
+rice :: ArtifactNoun :: self.m.ontological-category <-- @rice
+pringles :: ArtifactNoun :: self.m.ontological-category <-- @pringles
+television :: ArtifactNoun :: self.m.ontological-category <-- @television
+pasta :: ArtifactNoun :: self.m.ontological-category <-- @pasta
+sofa :: ArtifactNoun :: self.m.ontological-category <-- @sofa
+couch :: ArtifactNoun :: self.m.ontological-category <-- @couch
+room :: ArtifactNoun :: self.m.ontological-category <-- @room
+floor :: ArtifactNoun :: self.m.ontological-category <-- @floor
+kitchen :: ArtifactNoun :: self.m.ontological-category <-- @kitchen
+drawer :: ArtifactNoun :: self.m.ontological-category <-- @drawer
+cupboard :: ArtifactNoun :: self.m.ontological-category <-- @cupboard
+counter :: ArtifactNoun :: self.m.ontological-category <-- @counter
+cabinet :: ArtifactNoun :: self.m.ontological-category <-- @cabinet
+chair :: ArtifactNoun :: self.m.ontological-category <-- @chair
+oven :: ArtifactNoun :: self.m.ontological-category <-- @oven
+stove :: ArtifactNoun :: self.m.ontological-category <-- @stove
+bed :: ArtifactNoun :: self.m.ontological-category <-- @bed
+bench :: ArtifactNoun :: self.m.ontological-category <-- @bench
+wardrobe :: ArtifactNoun :: self.m.ontological-category <-- @wardrobe
+bedroom :: ArtifactNoun :: self.m.ontological-category <-- @bedroom
+closet :: ArtifactNoun :: self.m.ontological-category <-- @closet
+bar :: ArtifactNoun :: self.m.ontological-category <-- @bar
+office :: ArtifactNoun :: self.m.ontological-category <-- @office
+corridor :: ArtifactNoun :: self.m.ontological-category <-- @corridor
+bathroom :: ArtifactNoun :: self.m.ontological-category <-- @bathroom
+laboratory :: ArtifactNoun :: self.m.ontological-category <-- @laboratory
+elevator :: ArtifactNoun :: self.m.ontological-category <-- @elevator
+reception :: ArtifactNoun :: self.m.ontological-category <-- @reception
+basement :: ArtifactNoun :: self.m.ontological-category <-- @basement
+ward :: ArtifactNoun :: self.m.ontological-category <-- @ward
+station :: ArtifactNoun :: self.m.ontological-category <-- @station
+toilet :: ArtifactNoun :: self.m.ontological-category <-- @toilet
+hall :: ArtifactNoun :: self.m.ontological-category <-- @hall
+hallway :: ArtifactNoun :: self.m.ontological-category <-- @hallway
+cellar :: ArtifactNoun :: self.m.ontological-category <-- @cellar
+den :: ArtifactNoun :: self.m.ontological-category <-- @den
+garage :: ArtifactNoun :: self.m.ontological-category <-- @garage
+playroom :: ArtifactNoun :: self.m.ontological-category <-- @playroom
+porch :: ArtifactNoun :: self.m.ontological-category <-- @porch
+staircase :: ArtifactNoun :: self.m.ontological-category <-- @staircase
+shower :: ArtifactNoun :: self.m.ontological-category <-- @shower
+door :: ArtifactNoun :: self.m.ontological-category <-- @door
+sink :: ArtifactNoun :: self.m.ontological-category <-- @sink
+fireplace :: ArtifactNoun :: self.m.ontological-category <-- @fireplace
+washbasin :: ArtifactNoun :: self.m.ontological-category <-- @washbasin
+bookshelf :: ArtifactNoun :: self.m.ontological-category <-- @bookshelf
+armchair :: ArtifactNoun :: self.m.ontological-category <-- @armchair
+bidet :: ArtifactNoun :: self.m.ontological-category <-- @bidet
+dresser :: ArtifactNoun :: self.m.ontological-category <-- @dresser
+sideboard :: ArtifactNoun :: self.m.ontological-category <-- @sideboard
+question :: ArtifactNoun :: self.m.ontological-category <-- @question
+
+robot :: SentientNoun :: self.m.ontological-category <-- @robot
+
+return :: ReturnType :: self.m.actionary <-- @move
+
+dash :: SelfMotionType :: self.m.actionary <-- @dash :: self.m.speed <-- ".8"
+dart :: SelfMotionType :: self.m.actionary <-- @dart :: self.m.speed <-- ".7"
+gallop :: SelfMotionType :: self.m.actionary <-- @gallop :: self.m.speed <-- ".7"
+amble :: SelfMotionType :: self.m.speed <-- ".2" :: self.m.actionary <-- @amble
+scamper :: SelfMotionType :: self.m.actionary <-- @scamper
+turn :: SelfMotionType :: self.m.speed <-- ".2" :: self.m.actionary <-- @turn
+fall :: SelfMotionType :: self.m.actionary <-- @fall
+dash :: SelfMotionType :: self.m.actionary <-- @dash
+go :: SelfMotionType :: self.m.actionary <-- @motion
+navigate :: SelfMotionType :: self.m.actionary <-- @navigate
+
 grab :: EstablishHoldType :: self.m.actionary <-- @grab
+pick :: EstablishHoldType :: self.m.actionary <-- @pick
+put :: EstablishHoldType :: self.m.actionary <-- @put
+get :: EstablishHoldType :: self.m.actionary <-- @get
+grasp :: EstablishHoldType :: self.m.actionary <-- @grasp
+place :: EstablishHoldType :: self.m.actionary <-- @place
+deliver :: EstablishHoldType :: self.m.actionary <-- @deliver
+
+find :: PerceptionType :: self.m.actionary <-- @find
+look :: PerceptionType :: self.m.actionary <-- @look
+locate :: PerceptionType :: self.m.actionary <-- @locate
+
+jointly :: JointProcessAdverb :: self.m.value <-- @joint
+together :: JointProcessAdverb :: self.m.value <-- @joint
+
+coffee :: SubstanceType :: self.m.ontological-category <-- @coffee
+snack :: SubstanceType :: self.m.ontological-category <-- @snack
+milk :: SubstanceType :: self.m.ontological-category <-- @milk
+juice :: SubstanceType :: self.m.ontological-category <-- @juice
+whisky :: SubstanceType :: self.m.ontological-category <-- @whisky
+rum :: SubstanceType :: self.m.ontological-category <-- @rum
+food :: SubstanceType :: self.m.ontological-category <-- @food
+drink :: SubstanceType :: self.m.ontological-category <-- @drink
+
+dining :: PropertyAdjectiveType :: self.m.property <-- @function :: self.m.value <-- @dining
+new :: PropertyAdjectiveType :: self.m.value <-- @new
+
+mug :: ContainerNoun :: self.m.ontological-category <-- @mug
+can :: ContainerNoun :: self.m.ontological-category <-- @cancontainer
+bottle :: ContainerNoun :: self.m.ontological-category <-- @bottle
+cup :: ContainerNoun :: self.m.ontological-category <-- @cup
+glass :: ContainerNoun :: self.m.ontological-category <-- @glass
+
+gallon :: UnitType :: self.m.ontological-category <-- @gallon :: self.m.extras.quantity.property <-- @fuel
+
+answer :: CommunicationType :: self.m.actionary <-- @answer
+tell :: CommunicationType :: self.m.actionary <-- @tell
+
+follow :: CauseMotionType :: self.m.actionary <-- @follow
+guide :: CauseMotionType :: self.m.actionary <-- @guide
+lead :: CauseMotionType :: self.m.actionary <-- @lead
+meet :: CauseMotionType :: self.m.actionary <-- @meet
+
+push :: ApplyForceType :: self.m.actionary <-- @push
+
+attach :: EstablishHoldType :: self.m.actionary <-- @attach
+connect :: EstablishHoldType :: self.m.actionary <-- @connect
+dock :: EstablishHoldType :: self.m.actionary <-- @dock
+detach :: EstablishHoldType :: self.m.actionary <-- @detach
+charge :: EstablishHoldType :: self.m.actionary <-- @charge
+disconnect :: EstablishHoldType :: self.m.actionary <-- @disconnect
+undock :: EstablishHoldType :: self.m.actionary <-- @undock

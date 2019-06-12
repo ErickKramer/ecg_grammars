@@ -166,6 +166,10 @@ DEFS:
 
 (type say sub mentalProcess)
 
+(type tell sub communication)
+
+(type answer sub communication)
+
 (type think sub mentalProcess)
 
 (type give sub objecttransfer)
@@ -274,6 +278,8 @@ DEFS:
 
 (type dash sub motion)
 
+(type navigate sub motion)
+
 (type northSide sub sideValue)
 
 (type southSide sub sideValue)
@@ -328,6 +334,8 @@ DEFS:
 
 (type pr2 sub entity robot shared)
 
+(type fridge sub artifact container shared)
+
 (type refrigerator sub artifact container shared)
 
 (type cancontainer sub artifact container)
@@ -345,5 +353,297 @@ DEFS:
 (type gallon sub measure fuel shared)
 
 (type grab sub establishhold  shared)
+
+(type kitchen sub artifact  shared)
+
+(type kleenex sub artifact  shared)
+
+(type cup sub container  shared)
+
+(type snack sub substance  shared)
+
+(type food sub substance  shared)
+
+(type drink sub substance  shared)
+
+(type cookie sub artifact  shared)
+
+(type pen sub artifact  shared)
+
+(type notebook sub artifact  shared)
+
+(type laptop sub artifact  shared)
+
+(type tablet sub artifact  shared  shared)
+
+(type charger sub artifact  shared)
+
+(type peanut sub artifact  shared)
+
+(type biscuit sub artifact  shared)
+
+(type candy sub artifact  shared)
+
+(type donuts sub artifact  shared)
+
+(type cake sub artifact  shared  shared)
+
+(type pie sub artifact  shared)
+
+(type coke sub artifact  shared  shared  shared)
+
+(type sprite sub artifact  shared)
+
+(type sake sub artifact  shared)
+
+(type toothpaste sub artifact  shared)
+
+(type cream sub artifact  shared)
+
+(type lotion sub artifact  shared)
+
+(type dryer sub artifact  shared)
+
+(type comb sub artifact  shared)
+
+(type towel sub artifact  shared)
+
+(type shampoo sub artifact  shared)
+
+(type soap sub artifact  shared)
+
+(type cloth sub artifact  shared)
+
+(type sponge sub artifact  shared)
+
+(type toothbrush sub artifact  shared)
+
+(type bottle sub container  shared)
+
+(type glass sub container  shared)
+
+(type fork sub artifact  shared)
+
+(type knife sub artifact  shared)
+
+(type bowl sub artifact  shared)
+
+(type tray sub artifact  shared)
+
+(type plate sub artifact  shared)
+
+(type newspaper sub artifact  shared)
+
+(type magazine sub artifact  shared)
+
+(type almond sub artifact  shared)
+
+(type onion sub artifact  shared)
+
+(type apple sub artifact  shared)
+
+(type cookies sub artifact  shared)
+
+(type chips sub artifact  shared)
+
+(type ham sub artifact  shared)
+
+(type lemon sub artifact  shared  shared)
+
+(type peach sub artifact  shared)
+
+(type strawberry sub artifact  shared)
+
+(type blueberry sub artifact  shared)
+
+(type banana sub artifact  shared)
+
+(type watermelon sub artifact  shared)
+
+(type pepper sub artifact  shared)
+
+(type pear sub artifact  shared)
+
+(type pizza sub artifact  shared)
+
+(type noodles sub artifact  shared)
+
+(type milk sub substance  shared)
+
+(type juice sub substance  shared)
+
+(type whisky sub substance  shared)
+
+(type rum sub substance  shared)
+
+(type vodka sub artifact  shared)
+
+(type cider sub artifact  shared)
+
+(type lemonade sub artifact  shared)
+
+(type tea sub artifact  shared)
+
+(type rice sub artifact  shared)
+
+(type pringles sub artifact  shared)
+
+(type sofa sub artifact  shared  shared  shared)
+
+(type couch sub artifact  shared)
+
+(type drawer sub artifact  shared)
+
+(type cupboard sub artifact  shared)
+
+(type cabinet sub artifact  shared)
+
+(type chair sub artifact  shared)
+
+(type oven sub artifact  shared)
+
+(type stove sub artifact  shared)
+
+(type television sub artifact  shared)
+
+(type bed sub artifact  shared)
+
+(type bench sub artifact  shared)
+
+(type wardrobe sub artifact  shared  shared)
+
+(type bedroom sub artifact  shared)
+
+(type closet sub artifact  shared)
+
+(type bar sub artifact  shared)
+
+(type office sub artifact  shared)
+
+(type corridor sub artifact  shared)
+
+(type bathroom sub artifact  shared)
+
+(type laboratory sub artifact  shared)
+
+(type elevator sub artifact  shared)
+
+(type reception sub artifact  shared)
+
+(type basement sub artifact  shared)
+
+(type ward sub artifact  shared)
+
+(type station sub artifact  shared)
+
+(type toilet sub artifact  shared)
+
+(type hall sub artifact  shared)
+
+(type hallway sub artifact  shared)
+
+(type cellar sub artifact  shared)
+
+(type den sub artifact  shared)
+
+(type garage sub artifact  shared)
+
+(type playroom sub artifact  shared)
+
+(type porch sub artifact  shared)
+
+(type staircase sub artifact  shared)
+
+(type shower sub artifact  shared  shared)
+
+(type door sub artifact  shared)
+
+(type sink sub artifact  shared)
+
+(type bathub sub artifact  shared)
+
+(type pick sub establishhold  shared)
+
+(type fireplace sub artifact  shared)
+
+(type sideboard sub artifact  shared)
+
+(type washbasin sub artifact  shared)
+
+(type bookshelf sub artifact  shared)
+
+(type armchair sub artifact  shared)
+
+(type question sub artifact  shared)
+
+(type pasta sub artifact  shared)
+
+(type tracy sub person)
+
+(type peyton sub person)
+
+(type hayden sub person)
+
+(type alex sub person)
+
+(type jordan sub person)
+
+(type argentina sub person)
+
+(type erick sub person)
+
+(type michael sub person)
+
+(type morgan sub person)
+
+(type jamie sub person)
+
+(type me sub person)
+
+(type someone sub person)
+
+(type put sub establishhold  shared)
+
+(type get sub establishhold  shared)
+
+(type grasp sub establishhold  shared)
+
+(type place sub establishhold  shared)
+
+(type deliver sub establishhold  shared)
+
+(type bidet sub artifact  shared)
+
+(type dresser sub artifact  shared)
+
+(type find sub perception shared)
+
+(type look sub perception shared)
+
+(type locate sub perception shared)
+
+(type follow sub complexxnet  shared)
+
+(type guide sub complexxnet  shared)
+
+(type lead sub complexxnet  shared)
+
+(type meet sub complexxnet  shared)
+
+(type attach sub establishhold  shared)
+
+(type connect sub establishhold  shared)
+
+(type dock sub establishhold  shared)
+
+(type detach sub establishhold  shared)
+
+(type charge sub establishhold  shared)
+
+(type disconnect sub establishhold  shared)
+
+(type undock sub establishhold  shared)
+
+(type uncharge sub establishhold  shared)
 
 INSTS:

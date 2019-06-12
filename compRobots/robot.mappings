@@ -31,3 +31,4 @@
 @cancontainer :: $can
 @have :: $possess
 @own :: $possess
+@motion :: $move@pick :: $grab
